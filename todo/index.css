@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.MainContainer {
+    width: 100%;
+    height: 100vh;
+    background: #dfdfdf;
+}
+
+.Header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header img {
+    width: 40px;
+    height: 40px;
+}
+
+.Header h5 {
+    font-size: 30px;
+    color: blue;
+    font-family: sans-serif;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.UserInputandAddtn {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.InputDiv {
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    border-radius: 7PX;
+    /* background-color: peru; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.InputDiv input {
+    width: 80%;
+    height: 100%;
+    padding-left: 10px;
+    border: none;
+    border-radius: 7PX;
+    outline: none;
+}
+
+
+
+.Date {
+    padding: 10px;
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.Date {
+    padding: 20px;
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.Add {
+    padding: 20px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* @media screen and (max-width: 425px){
+    .Add{
+        width: 100%;
+        
+    } 
+
+} */
+
+.Useroutput {
+    width: 100%;
+    height: 63vh;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.TextShow {
+    width: 80%;
+    height: 100%;
+    background-color: rgb(248, 247, 244);
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.output {
+    display: flex;
+    height: 50px;
+    width: 96%;
+    margin-top: 3%;
+    align-items: center;
+}
+
+.output span {
+    width: 70%;
+    margin-left: 2%;
+}
+.output p {
+    margin-right: 2%;
+}
+
+.edit {
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 2%;
+}
+
+.delete {
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 425px){
+
+    .InputDiv input{
+        width: 60%;
+        height : 70%
+    } 
+    .Add{
+        width: 20%;
+        padding: 15px;
+    } 
+
+}
+
+@media screen and (max-width: 320px) {
+    .InputDiv {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .Add{
+        width: 90%;
+        padding:0px;
+        height: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .InputDiv input {
+        width: 100%;
+        height: 50%
+    }
+   
+}
