@@ -1,0 +1,228 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    height: 100vh;
+    width: 20%;
+    background-color: rgb(17, 17, 89);
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.up{
+    height: 130px;
+    width: auto;
+    /* background-color: darkgreen; */
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cirlogo{
+    height: 70px;
+    width: 70px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+.plug{
+    height: 70px;
+    width: 70px;
+}
+.name{
+    color: white;
+    margin-top: 9px;
+}
+.overviewhold{
+    height: 30px;
+    width: 80%;
+    background-color: rgb(111, 107, 107);
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 100px;
+    /* opacity: 50%; */
+    border-radius: 6%;
+}
+.home{
+    height: 15px;
+    width: 20px;
+}
+.view{
+    color: white;
+    height: 80%;
+    margin-left: 10px;
+    /* background-color: cadetblue; */
+}
+.addhold{
+    height: 30px;
+    width: 80%;
+    /* background-color: rgb(211, 19, 19); */
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* border-radius: 6%; */
+}
+.add{
+    height: 20px;
+    width: 20px;
+}
+.items{
+    color: white;
+    margin-left: 10px;
+    /* background-color: blanchedalmond; */
+}
+.down{
+    height: 30px;
+    width: 80%;
+    /* background-color: rgb(211, 19, 19); */
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 220px;
+    /* border-radius: 6%; */
+}
+.logout{
+   height: 20px;
+   width: 20px;
+   cursor: pointer;
+}
+.out{
+    color: white;
+    margin-left: 10px;
+    /* background-color: blanchedalmond; */
+}
+.right{
+    height: 100vh;
+    width: 100%;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.rightwrapper{
+    height: 100vh;
+    width: 80%;
+    /* background-color: aqua; */
+    margin-top: 100px;
+    
+}
+.upper{
+/* background-color: bisque; */
+height: auto;
+}
+.para{
+margin-top: 7px;
+/* background-color: blue; */
+}
+.lowerwrapper{
+ height: auto;
+ width: 100%;
+ /* background-color: rgb(81, 46, 46); */
+ margin-top: 20px;
+ /* opacity: 10%; */
+ border-radius: 2%;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+.row{
+height: 80%;
+width: 100%;
+background-color: rgb(204, 204, 204);
+opacity: 150%;
+display: flex;
+justify-content: center;
+border-radius: 5px;
+/* margin: 10px; */
+
+}
+.box{
+height: auto;
+width: 40%;
+background-color: beige; 
+margin-right: 20px;
+margin: 10px;
+/* margin-bottom: 10px; */
+border-radius: 3px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+}
+.line1{
+    height: 15px;
+    width: auto;
+    /* background-color: darkmagenta; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.del{
+    height: 15px;
+    width: 15px;
+}
+.line2{
+    height: 15px;
+    width: auto;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px; 
+    margin-top: 30px; 
+}
+.minus{
+    color: red;
+}
+.plus{
+    color: blue;
+}
+.line3{
+    height: 15px;
+    width: auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px; 
+    margin-top: 4px; 
+}
+.line4{
+    height: 15px;
+    width: auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px; 
+    margin-top: 10px; 
+}
+.num{
+    color: lime;
+}
+.num2{
+    color: skyblue;
+}
+/* .box2{
+    height: auto;
+    width: 40%;
+    background-color: cornflowerblue;
+} */
+

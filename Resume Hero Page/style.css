@@ -1,0 +1,145 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #212153, #d3d0e9 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#headerwrapper{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.leftnav{
+    width: 65%;
+    height: auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.Resumebutton{
+    width: 100px;
+    height: 30px;
+    border: 1px solid grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.navwrap{
+    /* background-color: green; */
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+    height: auto;
+}
+.buildresume{
+    width: 80%;
+    background-color: blue;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+.hero{
+    /* background-color: yellow; */
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroleft{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+h1{
+    margin-bottom: 30px;
+    color: white;
+    /* font-family: poppins; */
+}
+h5{
+    margin-bottom: 30px;
+    color: white;
+}
+
+.bottomdiv{
+    height: auto;
+    width: 200px;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h6{
+    margin-top: 10px;
+    color: white
+}
+
+.button1{
+    height: 35px;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(223, 39, 131);
+}
+
+.heroimage_hold{
+/* background-color: red; */
+width: 40%;
+display: flex;
+justify-content: center;
+align-items: center;
+}

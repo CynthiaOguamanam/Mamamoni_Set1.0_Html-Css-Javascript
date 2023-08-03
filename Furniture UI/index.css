@@ -1,0 +1,266 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: palevioletred; */
+}
+.header{
+    height: 10%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+}
+.headerwrapper{
+    height: 100%;
+    width: 80%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.leftnav{
+    width: 70%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.between{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.msg{
+    height: 30px;
+    width: 30px;
+}
+.search{
+    height: 30px;
+    width: 30px;
+}
+
+.bottom{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+}
+.bottomwrapper{
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+.lefthold{
+    /* background-color: peru; */
+    width: 70%;
+}
+.righthold{
+    width: 30%;
+    /* background-color: rgb(89, 89, 143); */
+    height: 100%;
+}
+.tophero{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer{
+    /* background-color: green;
+    < */
+    height: 10%;
+    width: 80%;
+    display: flex ;
+    justify-content:space-between;
+
+
+}
+.furniturehold{
+    width: 50%;
+    /* background-color: purple; */
+    height: auto;
+    display: flex;
+    
+}
+.textshold{
+    width: 45%;
+    /* background-color: rgb(153, 106, 153); */
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: rgb(235, 235, 235);
+    position: relative;
+    top: 45px;
+    /* margin-top:40px; */
+    
+}
+
+.chair{
+    width: 310px;
+    height:400px;
+    position: absolute;
+}
+.star{
+    width: 20px;
+    height: 20px;
+}
+.bigtexthold{
+    margin-bottom: 15px;
+}
+
+.reviewhold{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    margin-bottom: 10px;
+
+}
+.hh1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.loveimg{
+    width: 30px;
+    height: 30px;
+}
+.cartimg{
+    width: 25px;
+    height: 25px;
+}
+
+.buttonlovehold{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    /* width: 60%; */
+    margin-top: 8px;
+}
+.hh4{
+    margin-top: 15px;
+}
+.bbold{
+    margin-top: 15px;
+}
+.lovehold{
+    width: 35px;
+    height: 35px;
+    background-color:  rgb(219, 219, 219);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circlediv{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blackbutton{
+    width: 175px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+.pic{
+
+}
+.chair2{
+    height: 200px;
+    width: 200px;
+}
+.lamp{height: 200px;
+    width: 200px;
+    margin-top: 10px;
+}
+.star{
+    height: 20px;
+    width: 20px;
+}
+.love{
+    height: 20px;
+    width: 20px;
+}
+.lovestar{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+    width: 180px;
+    align-items: center;
+}
+.lampchair{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.chair3{
+    height: 50%;
+    /* background-color: aqua; */
+}
+.lamp1{
+    height: 50%;
+    margin-top: 30px;
+}
+    
+.lovehold{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 213, 213);
+}
+
+.inputhold{
+    margin: 50px;
+    width: 450px;
+    height: 40px;
+    border: 1px solid grey;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    /* background-color: red; */
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: 0;
+}
+
+.line{
+    width: 55px;
+    height: 1px;
+    background-color: green;
+
+}

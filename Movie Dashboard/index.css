@@ -1,0 +1,140 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    /* background-color: rgb(238, 208, 171); */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.left{
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(226, 223, 218); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    float: left;
+    background: linear-gradient(rgb(80, 80, 163), pink);
+    
+}
+
+.avatarhold{
+    width: 150px;
+    height: 150px;
+    margin: 20px 0;
+    /* background-color: red; */
+}
+
+.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.info{
+    width: 80%;
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    line-height: 30px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.quotehold{
+    width: 80%;
+    /* background-color: purple; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.iconhold{
+    width: 80%;
+    height: auto;
+    /* background-color: rgb(102, 87, 87); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social{
+width: 40px;
+height: 40px;
+}
+.social2{
+width: 70px;
+height: 70px;
+}
+
+.right{
+    width: 60%;
+    height: auto;
+    background-color: rgb(219, 235, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 0 0 40%;
+    padding-top: 100px;
+}
+.title{
+    width: 80%;
+    height: auto;
+    /* background-color: green; */
+    margin-top: 40px;
+    text-align: center;
+}
+.cardhold{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 20px;
+}
+.card{
+    width: 100%;
+    margin: 10px 0;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagehold{
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+.image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.texthold{
+    width: 45%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* background-image, linear gradient, cursor, transform, transition, text-align,  */

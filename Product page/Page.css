@@ -1,0 +1,178 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.Hero{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.LeftHero{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+}
+.RightHero{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.Leftwrap{
+    width: 90%;
+    height: 100%;
+    /* background-color: orange; */
+}
+.Top{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: bisque; */
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+}
+h4{
+    font-family: Arial ;
+    margin-top: 10px;
+    color: white;
+}
+h5{
+    font-family: Arial ;
+    color: white;
+}
+.Bottomwrap{
+    width: 100%;
+    margin-top: 100px;
+    /* background-color: aquamarine; */
+}
+.Bottom{
+    width: 100%;
+    height: 100%;
+
+    /* background-color: coral; */
+}
+.B1{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: darkslateblue ;
+}
+.B2{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    /* background-color: darkslateblue ; */
+}
+.B3{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 330px;
+   
+}
+.Bb1{
+    width: 25px;
+    height: 20px;
+}
+.Bb2{
+    width: 25px;
+    height: 20px;
+}
+.Bb3{
+    width: 25px;
+    height: 25px;
+}
+.Rightwrap{
+    width: 70%;
+   
+    /* background-color: aquamarine; */
+}
+.Text{
+    width: 100%;
+    height: 10%;
+    margin-top: 50px;
+    /* background-color: bisque; */
+}
+h1{
+    font-family: Calibri;
+}
+h3{
+    font-family: Arial ;
+    margin-top: 10px;
+}
+.Textwrap{
+    width: 100%;
+    height: 80%;
+    margin-top: 10px;
+    border-radius: 10px 10px 0 0 ;
+    background-color: rgb(237, 240, 236);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.Cardwrap{
+    width: 95%;
+    display: flex;
+    height: 180px;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(221, 91, 43); */
+}
+.Card{
+    width: 330px;
+    height: 170px;
+    border-radius: 10px 10px 10px 10px ;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.CardTextwrap{
+    width: 90%;
+    height: 90%;
+    /* background-color: cornflowerblue; */
+}
+.Del{
+    width: 20px;
+    height: 20px;
+}
+.C1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.C2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    
+}
+.C3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.C4{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 5px;
+    
+}
